@@ -18,6 +18,5 @@ public class Main2 {
         System.out.println(symbol);
         System.out.println(str);
         System.out.println(isTrue);
-
     }
 }
