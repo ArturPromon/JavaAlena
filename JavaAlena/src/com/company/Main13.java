@@ -16,6 +16,5 @@ public class Main13 {
         array3[3] = 10;
         System.out.println(Arrays.toString(array3));
 
-
     }
 }
