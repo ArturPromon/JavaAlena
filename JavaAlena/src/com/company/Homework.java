@@ -9,7 +9,6 @@ public class Homework {
         int count = 0;
         for(int i = a.length - 1; i > -1; i--){
             b[count] = a[i];
-
             count++;
         }
         System.out.println(Arrays.toString(b));
