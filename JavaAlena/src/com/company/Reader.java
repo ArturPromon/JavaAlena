@@ -19,12 +19,14 @@ public class Reader {
             String line;
             int countLetter;
             int countWords;
+            int totalletters;
             while((line = file.readLine()) != null){
                 countLetter = 0;
                 countWords = 0;
+                totalletters = 0;
                 array = line.split(" ");
                 for(int i = 0; i < array.length; i++){
-                    array[i] = Character.toUpperCase(array[i].charAt(0)) + array[i].substring(1);
+//                    array[i] = array[i].substring(1) + Character.toUpperCase(array[i].charAt(1)) + array[i].substring(2, array[i].length());
                 }
                 System.out.println(Arrays.toString(array));
                 for(int i =0; i<line.length();i++){
@@ -37,7 +39,11 @@ public class Reader {
                     countWords++;
                 }
 
-
+                for(int i = 0; i<line.length(); i++){
+                    if(line.charAt(i) != ' '){
+                        totalletters++;
+                    }
+                }
                 System.out.println("Letter " + letter + " seems " + countLetter + " time(s)");
                 System.out.println("Total words: " +countWords);
             }
