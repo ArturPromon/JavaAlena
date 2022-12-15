@@ -2,7 +2,9 @@ package com.company;
 
 public class Main42 {
     public static void main(String[] args) {
-        System.out.println(sum(5,10));
+        int a =5;
+        int b = 10;
+        System.out.println(sum(a,b));
         System.out.println(sum());
         System.out.println(sum(5,10,15));
         System.out.println(sum(5f,10f));

@@ -30,7 +30,5 @@ public class Main25 {
             System.out.print(result4 + "\t");
             System.out.println(result5);
         }
-
-
     }
-        }
+}
