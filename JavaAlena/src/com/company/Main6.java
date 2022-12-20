@@ -11,5 +11,7 @@ public class Main6 {
             result = b - a;
         }
         System.out.println(result);
+
     }
+
 }
