@@ -8,14 +8,10 @@ public class MainPolymorphism {
         figure2.draw();
         FigurePolymorphism figure3 = new Square();
         figure3.draw();
-
         FigurePolymorphism[] arrayFigure = new FigurePolymorphism[]{new Square(), new Triangle(), new Ellipse()};
 
         for(int i = 0; i < arrayFigure.length;i++){
             arrayFigure[i].draw();
         }
     }
-
-
-
 }

@@ -1,7 +1,6 @@
 package com.company;
 
 public class MainPhoneParam {
-
     class memory{
         String memory = "Switched off";
 
