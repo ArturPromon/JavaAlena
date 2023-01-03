@@ -5,5 +5,6 @@ public class testMain {
         testnumbers object1 = new testnumbers();
         int sum = object1.sum(11);
         System.out.println(sum);
+
     }
 }
