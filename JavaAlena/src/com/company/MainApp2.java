@@ -44,6 +44,7 @@ public class MainApp2 extends JFrame {
         container.add(radio2);
         container.add(check);
 
+        input.addActionListener(new ButtonEventListener());
         button.setMnemonic(KeyEvent.VK_ENTER);
         button.addActionListener(new ButtonEventListener());
         container.add(button);
